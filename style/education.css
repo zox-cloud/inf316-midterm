@@ -1,0 +1,61 @@
+
+h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: white;
+
+}
+
+.education-info {
+    margin: 20px 0;
+}
+
+.time-line {
+    list-style-type: circle;
+    margin: 10px 0 20px 20px;
+    text-shadow: 0 0 10px #13c4dc, 0 0 20px #13c4dc;
+}
+
+ul li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.milestones {
+    margin-top: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #ecf0f1;
+
+}
+
+table, th, td {
+    border: 1px solid #bdc3c7;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #2980b9;
+    color: white;
+
+}
+
+tbody tr:hover {
+    background-color: snow;
+    box-shadow: 0 0 15px #13c4dc, 0 0 30px #13c4dc;
+}
+

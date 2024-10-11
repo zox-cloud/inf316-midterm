@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style/style.css"/>
+    <link rel="stylesheet" href="/style/family.css">
+    <link rel="stylesheet" href="/style/normalization.css">
+    <title>Адаптивная верстка - Каркас</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Audiowide&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Yantramanav:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+</head>
+
+    <body>
+
+
+    <header class="header">
+
+        <div class="container">
+            <div class="flexA">
+                <a href="/index.html" class="header-logo">
+                    <img src="images/bjork-logo.svg" alt="Some logo " width="200" height="110">
+                </a>
+
+
+                <div class="burger-menu">
+                    <span class="burger-icon"></span>
+                    <span class="burger-icon"></span>
+                    <span class="burger-icon"></span>
+                </div>
+
+                <nav class="header-menu">
+                    <ul class="header-menu-list flexA">
+                        <li class="header-menu-item">
+                            <a class="header-menu-link" href="/index.html">Home</a>
+                        </li>
+                        <li class="header-menu-item">
+                            <a class="header-menu-link" href="/family.html">Family</a>
+                        </li>
+                        <li class="header-menu-item">
+                            <a class="header-menu-link" href="/education.html">Education</a>
+                        </li>
+                        <li class="header-menu-item">
+                            <a class="header-menu-link" href="/hobbies.html">Hobby</a>
+                        </li>
+                        <li class="header-menu-item">
+                            <a class="header-menu-link" href="/contacts.html">Contact us</a>
+                        </li>
+                    </ul>
+                </nav>
+
+
+            </div>
+        </div>
+
+    </header>
+        <main class="family-content">
+            <div class="container">
+                <section class="family-slider">
+                    <div class="family-slide active" id="slide-1">
+                        <div class="flexA">
+                            <img src="/images/testo1.jpg" alt="Dad's photo" class="family-photo">
+                            <div class="family-description">
+                                <p>Here is my father. His name is Serikzhan.Born in Almaty in 1966 year.<br>
+                                    He is tall about 185 cm and handsome , also he look likes serious man <br>
+                                    His a hardworking professional whose life revolves around his job. <br>
+                                    Dad not so much talkative, he is so calm and always in chill
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="family-slide active" id="slide-2">
+                        <div class="flexA">
+                            <img src="/images/testo2.jpg" alt="Dad's photo" class="family-photo">
+                            <div class="family-description">
+                                <p>Here is my mom. Her name is Gulbahyt.She also was born Almaty in 1973. <br>
+                                    Mom also tall like father but thin and always smile to us <br>
+                                    She have been working in one school for 30 years in 131 school-lyceum.
+                                    Mom always gives us advices, </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="family-slide active" id="slide-3">
+                        <div class="flexA">
+                            <img src="/images/testo3.jpg" alt="Dad's photo" class="family-photo">
+                            <div class="family-description">
+                                <p>OH yeah here is my little bro he is 17 years old, but I always think that he is 16.
+                                He is brown haired and taller than me. Soon he will graduate the school</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="slider-buttons">
+                    <button id="prevBtn">Previous</button>
+                    <button id="nextBtn">Next</button>
+                </div>
+            </div>
+        </main>
+
+    <script src="/js/family-slider.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,196 @@
+.container2 {
+    display: flex;
+
+
+}
+
+/* Map Section */
+.map-section {
+    width: 50%;
+    position: relative;
+    background-color: #2e2e2e;
+}
+
+.map-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.google-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 10px;
+    border: 1px solid white;
+    transition: 0.3s ease;
+}
+
+.google-link:hover {
+    background-color: #444;
+}
+
+/* Image under the map link */
+.image-placeholder {
+    text-align: center;
+}
+
+.image-placeholder img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Contact Form Section */
+.contact-section {
+    width: 50%;
+    padding: 40px;
+    background-color: white;
+    color: black;
+}
+
+.contact-section h1 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
+
+.contact-form input, .contact-form textarea {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #000;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    outline: none;
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 100px;
+}
+
+.contact-form input[type="file"] {
+    display: none;
+}
+
+.contact-form .file-upload {
+    cursor: pointer;
+    color: #000;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.file-upload .upload-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.submit-btn {
+    background-color: #000;
+    color: #fff;
+    padding: 15px 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.submit-btn:hover {
+    background-color: #333;
+}
+
+.submit-btn::after {
+    content: "→";
+    margin-left: 10px;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    .container2 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .map-section {
+        height: 300px;
+    }
+
+    .contact-section {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .contact-section h1 {
+        font-size: 1.2rem;
+    }
+
+    .contact-form input, .contact-form textarea {
+        font-size: 0.85rem;
+    }
+
+    .submit-btn {
+        font-size: 0.85rem;
+        padding: 10px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .map-section {
+        height: 250px;
+    }
+
+    .contact-section {
+        padding: 15px;
+    }
+
+    .contact-section h1 {
+        font-size: 1.1rem;
+    }
+
+    .contact-form input, .contact-form textarea {
+        font-size: 0.8rem;
+    }
+
+    .submit-btn {
+        font-size: 0.8rem;
+        padding: 10px 15px;
+    }
+}
+
+.footer2{
+    display: flex;
+}
+.social-icons{
+    width: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+
+
+}
+
