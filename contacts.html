@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="/style/normalization.css">
-    <title>Адаптивная верстка - Каркас</title>
+    <title>Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="/style/style.css"/>
@@ -68,36 +68,43 @@
 
             <div class="map-section">
                 <div class="map-placeholder">
-                    <a href="https://www.google.com/maps" target="_blank" class="google-link">look at google maps</a>
+                    <a href="https://www.google.com/" target="_blank" class="google-link">Search me here</a>
                 </div>
-                <!-- Image under the Google link -->
                 <div class="image-placeholder">
-                    <img src="images/map.svg" alt="Map Preview">
+                    <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23263.362158883698!2d76.6738432!3d43.2111616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38834f7675d8a6c3%3A0x7b7d14aec270c056!2sSDU%20University!5e0!3m2!1sru!2skz!4v1728644332687!5m2!1sru!2skz"
+                            width="600"
+                            height="450"
+                            style="border:0;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
                 </div>
             </div>
 
 
-            <!-- Contact Form Section -->
+
             <div class="contact-section">
-                <h1>Feedback Form</h1>
+                <h1>Contact to me</h1>
                 <form class="contact-form">
-                    <label for="name">Name</label>
+                    <label>Name</label>
                     <input type="text" id="name" name="name" required>
 
-                    <label for="email">E-mail</label>
-                    <input type="email" id="email" name="email" required>
+                    <label>E-mail</label>
+                    <input type="email"  required>
 
-                    <label for="phone">Phone</label>
-                    <input type="tel" id="phone" name="phone">
+                    <label>Phone</label>
+                    <input type="tel" required >
 
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" required></textarea>
+                    <label>Message</label>
+                    <textarea name="message" required></textarea>
 
-                    <label for="file-upload" class="file-upload">
-                        <img src="images/upload.png" alt="Upload Icon" class="upload-icon">
+                    <label  class="file-upload">
+                        <img src="images/upload.png" class="upload-icon">
                         Upload file
                     </label>
-                    <input type="file" id="file-upload" name="file-upload">
+                    <input type="file"  name="file-upload">
 
                     <button type="submit" class="submit-btn">SEND MESSAGE</button>
                 </form>
@@ -113,18 +120,6 @@
             <h2>Our Location</h2>
         </div>
         <div class="footer2">
-            <div class="map">
-
-                <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23263.362158883698!2d76.6738432!3d43.2111616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38834f7675d8a6c3%3A0x7b7d14aec270c056!2sSDU%20University!5e0!3m2!1sru!2skz!4v1728644332687!5m2!1sru!2skz"
-                        width="600"
-                        height="450"
-                        style="border:0;"
-                        allowfullscreen=""
-                        loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
-            </div>
 
             <div class="social-icons">
                 <a href="https://www.instagram.com/y_ou_soul/profilecard/?igsh=NTF2dXgwYXUxbHR5" target="_blank">

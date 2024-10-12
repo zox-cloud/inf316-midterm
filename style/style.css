@@ -62,12 +62,14 @@ body{
     justify-content: space-between;
     width: 30px;
     height: 25px;
-    position: absolute; /* Add this */
-    top: 45px; /* Adjust top position */
-    right: 32px; /* Adjust right position */
+    position: absolute;
+    top: 45px;
+    right: 32px;
 }
 
-/* Style each line of the burger menu */
+
+
+/* Styling lines in burger */
 .burger-icon {
     width: 30px;
     height: 3px;
@@ -85,6 +87,19 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 20px;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    animation-delay: 0.2s;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .text-content {
@@ -120,14 +135,14 @@ body{
 
 
 @media (max-width: 768px) {
-    /* Adjust header for mobile */
+
     .header {
         padding-inline: 16px;
         flex-direction: column;
         align-items: flex-start;
     }
 
-    /* Show burger menu and hide the default nav */
+    /* show burger menu and hide navbar */
     .burger-menu {
         display: flex;
         justify-content: space-between;
@@ -148,7 +163,7 @@ body{
         display: flex;
     }
 
-    /* Stack content for mobile */
+    /* content must be shown as column */
     .content-section {
         flex-direction: column;
     }
@@ -165,12 +180,12 @@ body{
         margin-top: 20px;
     }
 
-    /* Adjust image size */
+
     .responsive-image {
         max-width: 90%;
     }
 
-    /* Adjust icon size */
+
     .icon-img {
         width: 40px;
     }

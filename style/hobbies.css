@@ -43,9 +43,9 @@ p {
 }
 
 .hobby-card:hover {
-    transform: translateY(-10px); /* Lift on hover */
-    box-shadow: 0 0 30px rgba(0, 255, 221, 0.5); /* Glowing hover */
-    border: 2px solid #00FFDD; /* Glowing border on hover */
+    transform: translateY(-10px);
+    box-shadow: 0 0 30px rgba(0, 255, 221, 0.5); /* glowing hover */
+    border: 2px solid #00FFDD; /* glowing border on hover */
 }
 
 .hobby-card img {
@@ -93,18 +93,16 @@ h2 {
 }
 
 .gallery-grid img:hover {
-    transform: scale(1.05); /* Slight zoom on hover */
-    box-shadow: 0 0 30px rgba(0, 255, 221, 0.5); /* Glowing hover effect */
+    transform: scale(1.05); /* adding zoom in hover */
+    box-shadow: 0 0 30px rgba(0, 255, 221, 0.5); /* glowing hover effect */
 }
 
-/* Subtle fade-in animation */
+
 .hobby-card, .gallery-grid img {
     opacity: 0;
     animation: fadeIn 1s forwards;
     animation-delay: 0.2s;
 }
-
-/* Fade-in animation keyframes */
 @keyframes fadeIn {
     0% {
         opacity: 0;
